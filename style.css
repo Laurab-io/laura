@@ -1,0 +1,648 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue";
+    font-weight: 800;
+}
+
+.button {
+    display: block;
+    height: 30px;
+    width: 100px;
+    background: #4d3c35;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Lato", "Helvetica Neue";
+}
+
+a.button: hover {
+    background: #4d3c35;
+    background: -webkit-linear-gradient(top, #4d3c35, #2f5f63);
+    background: -moz-linear-gradient(top, #4d3c35, #2f5f63);
+    background: -o-linear-gradient(top, #4d3c35, #2f5f63);
+    background: -ms-linear-gradient(top, #4d3c35, #2f5f63);
+    background: linear-gradient(top, #4d3c35, #2f5f63);
+    color: #8495ae;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+.topnav {
+    font-size: 16px;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(192, 192, 192, 0.9);
+    box-shadow: 0px 1px rgba(207,19,85 0.3);
+}
+
+.topnav ul.navbar-nav li a {
+    background: rgba(28, 28, 28, 0.1);
+    color: #000;
+}
+
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+.topnav .navbar-brand {
+    background: rgba(28, 28, 28, 0.0);
+    color: #000;
+}
+
+.topnav .navbar-brand:hover,
+.topnav .navbar-brand:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 0 20px;
+}
+
+#leadLeft {
+    font-size: 20px;
+    padding: 0 0 0 20px;
+    font-family: "bad script";
+    position: absolute;
+}
+
+
+/*top background*/
+
+.intro-header {
+    height: 325px;
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url("img/background_hero_Clockin.png");
+    background-size: cover;
+    height: 475px;
+}
+/*Penny background link::: background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xaf1/t31.0-8/466294_830356726714_451326206_o.jpg') no-repeat center center fixed; */
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    height: 1055px;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+
+/*Big header*/
+
+.intro-message > h1 {
+    margin-top: -50px;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/*small header*/
+
+.intro-message > h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    color: black;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+
+/*line*/
+
+hr.intro-divider {
+    border: 1px outset rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+
+/* social buttons */
+
+.btn {
+    display: inline-block;
+    color: #000;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: #C0C0C0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color: #8495ae;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+
+/*section 2* White Sands Pic bckgrnd */
+
+.content-section-a {
+    padding: 50px 0;
+    background: url('img/background_hero_Clockin.png');
+    background-size: cover;
+    height: 625px;
+}
+
+/*Old White Sands Sledding pic and code:::   background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;  */
+
+
+/*
+@media(max-width:680px) {
+    .content-section-a {
+        height: 925px;
+        padding:50px 0 0 20px;
+        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+*/
+
+@media(max-width:707px) {
+    .content-section-a {
+        height: 900px;
+        padding: 50px 0 0 25px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+
+/*This fucking works */
+
+@media(max-width:992px) {
+    .content-section-a {
+        padding: 50px 0 0 25px;
+        height: 775px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+@media(max-width:555px) {
+    .content-section-a {
+        padding: 50px 0 0 25px;
+        height: 875px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+@media(max-width:490px) {
+    .content-section-a {
+        padding: 50px 0 0 25px;
+/*        height: 999px;*/
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+@media(max-width:438px) {
+    .content-section-a {
+        height: 1275px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+@media(max-width:356px) {
+    .content-section-a {
+        height: 1375px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+@media(max-width:393px) {
+    .content-section-a {
+        height: 1675px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+
+/*This fucking works */
+
+@media(max-width:300px) {
+    .content-section-a {
+        height: 1775px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+@media(max-width:212px) {
+    .content-section-a {
+        height: 1975px;
+/*        background: url('https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xfa1/t31.0-8/463468_735533722774_1724237988_o.jpg') no-repeat center center fixed;*/
+        background-size: cover;
+    }
+}
+
+.bg-overlay2 {
+    margin-top: -50px;
+    background: rgba(255, 255, 255, 0.2);
+    height: 855px;
+}
+
+
+/*self-taught*/
+
+.container .link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container .link:hover {
+    color: rgb(0, 0, 128);
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+h2.section-heading {
+    margin-top: 100px;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+/*text*/
+
+.content-section-a p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.content-section-a p a {
+    color: silver;
+    font-weight: bold;
+}
+
+
+
+/*profile picture*/
+
+.img-circle {
+    margin-top: 150px;
+    border: 1px outset rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/*Circular/Circle Portfolio Section  */
+
+.spacer {
+ height:50px;   
+}
+
+/* ======PORTFOLIO SECTION==========  */
+/* Portfolio section*/
+
+.balls {
+    background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 655px;
+    align-content:center;
+}
+
+.balls .middleLine {
+    /*   float: center;*/
+    align-content:center;
+/*    padding-left:325px;*/
+}
+
+@media(max-width:992px) {
+    section {
+        height: 925px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+}
+@media(max-width:768px) {
+    section {
+        height: 1100px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .middleLine {
+     float:center;
+     
+    }
+}
+
+@media(max-width:438px) {
+    section {
+        height: 1275px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media(max-width:393px) {
+    section {
+        height: 1175px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media(max-width:356px) {
+    section {
+        height: 1375px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media(max-width:300px) {
+    section {
+        height: 1775px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+@media(max-width:212px) {
+    section {
+        height: 1975px;
+        background: url('http://img06.deviantart.net/683e/i/2011/334/3/3/weathered_silver_metal_textures_by_sdwhaven-d4hrbv4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+#below-section {
+    color: #000;
+}
+
+#small-text {
+    color: white;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    padding: 7px;
+    color: white;
+    height: 110px;
+}
+
+
+/*Portfolio items*/
+
+.img-center {
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0;
+    border: 1px rgba (0.9,0,0,0.9);
+    
+}
+
+#portfolio .portfolio-item:hover {
+    transition: 0.5s;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(0, 0, 0, .7);
+    position: float;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s,
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: float;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    color: #fff;
+    text-transform: none;
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media (min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+
+/* bottom panel   */
+
+.banner {
+    padding: 40px 0 0 0;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    /*height: 395px; */
+}
+
+.bg-overlay4 {
+    background: rgba(255, 255, 255, 0.3);
+    height: 125px;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+}
+
+h2.connect {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+footer {
+    padding: 50px 0;
+     background: url('img/background_hero_Clockin.png');
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+#footerhomies ul{
+ font-size: 16px;
+ color: #777;
+}
+
+
+/*===HAMBURGER MENU====*/
+
+#sideNav {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -80px;
+    z-index: 11;
+}
+
+#sideNav ul {
+    list-style: none;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+}
+
+#sideNav li {
+/*    width: 50px;*/
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1px;
+}
+
+.no-rgba #sideNav li {
+    background-color: #ffffff
+}
+
+#slideNav a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000000;
+}
+
+#slideNav a.disabled {
+    cursor: default;
+}
